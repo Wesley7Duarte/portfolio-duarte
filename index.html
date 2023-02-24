@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="section-1-bg">
+        <aside>
+            <div class="icon-menu" onclick="abrimenu()">
+                <img src="imgs/menu.png" alt="menu">
+            </div><!--iconmenu-->
+            <div id="barra-menu">
+                <ul>
+                    <li><a href="#home">ínicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#secao-servicos">Serviços</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="c-icon">
+                    <span class="icon"><a href=mailto:wesleyduarteribeiro013@gmail.com><ion-icon name="mail-outline"></ion-icon></a></span>
+                    <span class="icon"><a href="tel:+11 986093405"><ion-icon name="call-outline"></ion-icon></a></span>
+                    <span class="icon"><a href="https://web.whatsapp.com/send?phone=5511986093405" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></ion-icon></a></span>
+                </div><!--cicon-->
+            </div><!--barramenu-->
+        </aside>
+        <div id="home" class="main-title">
+            <h1>Eu sou Wesley Duarte</h1>
+            <h2>Um desenvolvedor Web</h2>
+            <h5>Vamos Trabalhar juntos!</h5>
+            <a href="#secao-servicos"><button class="btn">Saber mais!</button></a>
+            <div class="numeros"><!--numeros-->
+                <div class="title">
+                    <h3>4</h3>
+                    <p>Meus clientes</p>
+                </div><!--title-->
+                <div class="title">
+                    <h3>6</h3>
+                    <p>Projetos completos</p>
+                </div><!--title-->
+                <div class="title">
+                    <h3>0</h3>
+                    <p>Meus ganhos</p>
+                </div><!--title-->
+            </div>
+        </div><!--maintitle-->
+    </div><!--section1-->
+    <section id="sobre" class="c-sobre" data-aos="fade-up">
+        <div class="image">
+            <img src="imgs/sobre1.jpg" alt="Imagem do wesley duarte">
+        </div><!--image-->
+        <div class="sobre-mim">
+            <h1>Sobre mim</h1>
+            <h4>Denvolvedor Web & <span>Designer UI/UX</span></h4>
+            <p>Olá, vocês estão procurando um profissional de front-end habilidoso e criativo? Então, vocês 
+                <br>encontraram!
+                <br><br>Eu sou <strong>Wesley Duarte</strong>, um programador apaixonado por criar interfaces intuitivas e atraentes que 
+                <br>melhoram a experiência do usuário. Meu conhecimento profundo em HTML, CSS e JavaScript me
+                <br>permite transformar qualquer ideia em uma página web vibrante e interativa.
+                <br> 
+                <br>Mas não é só sobre a aparência. Entendo que a funcionalidade é igualmente importante,
+                <br>por isso trabalho diligentemente para garantir que todos os elementos sejam tão bons por 
+                <br>dentro quanto por fora. Sou persistente em testar e otimizar o desempenho da página,
+                <br>garantindo boa velocidade e uma ótima experiência de navegação para o usuário.
+                <br>
+                <br>Eu também sou flexível e trabalho bem em equipe, colaborando com designers,
+                <br>desenvolvedores de back-end e gerentes de projetos para garantir que o projeto seja
+                <br>entregue no prazo e dentro do orçamento.
+                <br>
+                <br>Se vocês estão procurando por um profissional de front-end que vai trazer inovação e
+                <br>eficiência para o seu projeto, então sou a pessoa certa para o trabalho. Entre em contato
+                <br>hoje para saber mais sobre como posso ajudar a elevar a sua presença online.<br> <br>
+                <!--<strong>Minhas princípais qualidades são:</strong>
+                <ul><li>Comunicação.</li>
+                    <li>Criatividade.</li>
+                    <li>Curiosidade.</li>
+                </ul><br>-->
+               <!-- <strong>Já domino:</strong><br></p>
+                <ul class="ul-sobre">
+                    <li>Criação de ilustração vetorial e layouts.</li>
+                    <li>Recortar, compor e tratar imagem bitmap.</li>
+                    <li>Tratamento de imagem e ilustração vetorial.</li>
+                    <li>Produção de conteúdo gráfico para marketing digital.</li>
+                    <li>Criação de fluxograma de navegação, wireframe e protótipo.</li>
+                    <li>Conceitos do site responsivo, acessibilidade, arquitetura <br>
+                     de informação e navegabilidade.</li>
+                    <li>Fundamentos e lógica de programação.</li>
+                    <li>Criação e formatação de sites e blogs com linguagem HTML, CSS e implementação de scripts "JS".</li>
+                    <li>Gerenciar conteúdo, com plataformas: WordPress e Blogger.</li>
+                    <li>Criação, testes e publicação de websites.</li>
+                    <li>Criação e edição de vídeos para sites com diagramação de elementos, imagens e textos.</li>
+                    <li>Utilização de softwares vetoriais e de imagens do pacote Adobe, como Illustrator, <br>
+                    Photoshop, entre outros.</li>
+                    <li>Operar softwares de edição de vídeo.</li>
+                    <li>Adobe XD e Figma.</li>
+                </ul>-->
+                <a href="#contato"><button class="btn">Entrar em contato!</button></a>
+        </div><!--Sobre mim-->
+    </section><!--c-sobre-->
+    <section id="secao-servicos" class="container" data-aos="fade-up">
+        <h1>Serviços</h1>
+        <p>Você pode me contratar para esses serviços.</p>
+        <p></p>
+        <div class="c-card" data-aos="fade-up">
+            <!--<div class="card">
+                <img src="imgs/phone.png" alt="phone">
+                <h3>Desenvolvedor Mobile</h3>
+                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, rerum. 
+                    <br>
+                    <br>
+                    <br> sadipisicing elit. Quae, rerum. 
+                    <br>Lorem ipsum dolor sit amet.
+                    <br>Lorem ipsum dolor sit amet consectetur.
+                    <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.   
+                </h4>
+            </div>card-->
+            <div class="card">
+                <img src="imgs/desktop.png" alt="desktop">
+                <h3>Desenvolvedor Web</h3>
+                <h4>habilidades e técnicas pessoais:
+                    <br>
+                    <br>Conhecimento de linguagens de programação: HTML, CSS, JavaScript.
+                    <br>Conceitos do site responsivo, acessibilidade, arquitetura.
+                    <br>Conhecimento de boas práticas de codificação, 
+                    <br>escrever código limpo, reutilizável e manutenível.
+                    <br>Habilidades de colaboração e comunicação.
+                    <br>Controle e gerenciamento de versões.
+                    <br>Busca por aprendizado constante.
+                </h4>
+            </div><!--card-->
+            <div class="card">
+                <img src="imgs/grafico.png" alt="grafico">
+                <h3>Designer UI/UX</h3>
+                <h4>habilidades técnicas e pessoais: 
+                    <br>
+                    <br>Conhecimento de design gráfico, tipografia e cores.
+                    <br>Conhecimento em ferramentas de design, como Adobe Creative,
+                    <br>Figma, Adobe XD.
+                    <br>Noções de UX Design: Conhecimento de boas práticas de UX design.
+                    <br>Flexibilidade e capacidade de colaboração.
+                    <br>Busca por aprendizado constante.
+                </h4>
+            </div><!--card-->
+        </div><!--c-card-->
+        <div class="c-card2" data-aos="fade-up">
+            <div class="card">
+                <img src="imgs/ecommerce.png" alt="ecommerce">
+                <h3>Desenvolvedor Web</h3>
+                <h4>E-commerce.
+                    <br>
+                    <br>Conhecimento de HTML, CSS e JavaScript. 
+                    <br>Conhecimento de Designer UI/UX.
+                    <br>Conhecimento de frameworks de front-end.
+                    <br>Habilidade de teste e otimização.
+            </div><!--card-->
+            <div class="card">
+                <img src="imgs/paisagem.png" alt="paisagem">
+                <h3>Desenvolvedor Web</h3>
+                <h4>Landing Pages. 
+                    <br>
+                    <br>Habilidades de codificação, HTML, CSS e JavaScript.
+                    <br>Habilidade de teste e otimização.
+                    <br>Conhecimento de marketing.
+            </div><!--card-->
+            <div class="card">
+                <img src="imgs/paleta.png" alt="paleta">
+                <h3>Designer UI/UX</h3>
+                <h4>Prototipação de layouts e apps mobile. 
+                    <br>
+                    <br>Criação de ilustração vetorial e layouts.. 
+                    <br>Recortar, compor e tratar imagem bitmap.
+                    <br>Criação de fluxograma de navegação, wireframe e protótipo.
+                    <br>Produção de conteúdo gráfico para marketing digital.
+                    <br>Adobe XD e Figma.
+            </div><!--card-->
+        </div><!--c-card2-->
+    </section><!--Container-->
+    <section id="projetos" class="c-projetos">
+        <h1>Meus projetos</h1>
+        <p>Esses são resumos dos meus princípais projetos.</p>
+        <div class="img-projetos" data-aos="fade-up">
+            <a href="ecommerce/ecommerce.html" target="_blank"><img src="imgs/projeto-1.png" alt="projeto"></a>
+            <a href="site beathella/index.html" target="_blank"><img src="imgs/projeto-2.png" alt="projeto"></a>
+            <div class="img-3">
+                <img src="imgs/projeto-3.png" alt="projeto">
+            </div><!--img3-->
+        </div><!--img-projetos-->
+    </section><!--C-projetos-->
+
+<!-- <section class="c-rodape">
+        <h1>Entre em contato!</h1>
+        <form>
+            <div class="img-contato">
+                <a href="https://web.whatsapp.com/send?phone=5511986093405" target="_blank"><img src="imgs/contato/wpp.png" alt="wpp-contato" width="100%"></a>
+                <a href="mailto:wesleyduarteribeiro013@gmail.com"><img src="imgs/contato/email.png" alt="email-contato" width="100%"></a>
+                <a href="tel:+5511986093405"><img src="imgs/contato/tel.png" alt="tel-contato" width="100%"></a>
+            </div>
+        </form>
+    </section>c-rodape-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <!--
+        <section id="contato" class="rodape">
+        <div class="img-rodape">
+            <a href="mailto:wesleyduarteribeiro013@gmail.com"><img src="imgs/contato/email.png" alt="email-contato" width="100%"></a>
+        </div>
+        <div class="img-rodape">
+            <a href="tel:+5511986093405"><img src="imgs/contato/tel.png" alt="tel-contato" width="100%"></a>
+        </div>
+        <div class="img-rodape">
+            <a href="https://web.whatsapp.com/send?phone=5511986093405" target="_blank"><img src="imgs/contato/wpp.png" alt="wpp-contato" width="100%"></a>
+        </div>
+    </section>
+    -->
+    <div id="contato" class="rodape-content">
+        <div class="contatoh1">
+            <h1>Entre em contato comigo</h1>
+        </div>
+        <div class="box">
+            <div class="comunicacao">
+                <a href=mailto:wesleyduarteribeiro013@gmail.com> <img src="imgs/contato/email.png" width="100%" alt="imagem do email"></a>
+                <h2>E-mail</h2>
+                <p>Tem alguma dúvida?</p>
+                <a href=mailto:wesleyduarteribeiro013@gmail.com> wesleyduarteribeiro013@gmail.com</a>
+            </div>
+            <div id="box1" class="comunicacao"> 
+                        <a href="tel:+11986093405"><img src="imgs/contato/tel.png" width="100%" alt="imagem do telefone"></a>
+                    <h2>Telefone</h2>
+                    <p>Você pode ligar a qualquer hora.</p>
+                    <a href="tel:+11 986093405">(11) 98609-3405</a>
+            </div>
+            <div class="comunicacao">
+                <a href="https://web.whatsapp.com/send?phone=5511986093405" target="_blank"><img src="imgs/contato/wpp.png" alt="wpp-contato" width="100%"></a>
+                        <h2>Whatsapp</h2>
+                        <p>Me envie mensagem no whatsapp.</p>
+                        <a href="https://web.whatsapp.com/send?phone=5511986093405" target="_blank">+55(11) 98609-3405</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
